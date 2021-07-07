@@ -1,0 +1,19 @@
+{
+  "name": "echarts-node",
+  "version": "1.0.0",
+  "author": "鹅鹅鹅 <1977474741@qq.com>",
+  "description": "echarts的服务端渲染版本",
+  "main": "index.js",
+  "homepage": "https://github.com/1977474741/echarts-node.git",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "echarts": "^5.1.2"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/1977474741/echarts-node.git"
+  },
+  "npm": "https://www.npmjs.com/package/echarts-node",
+  "devDependencies": {},
+  "license": "ISC"
+}
