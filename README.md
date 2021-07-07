@@ -31,7 +31,7 @@ myChart.setOption(option);
 | 属性   | 类型   | 缺省值  | 描述  | 必填 |
 | ----- |:------:|:-----:|:-----:|:-----:|
 | width | Number | 300 | canvas宽度 | 否 |
-| height | Number | 300 | canvas宽度 | 否 |
+| height | Number | 300 | canvas高度 | 否 |
 
 ## echarts实例（myChart）
 https://echarts.apache.org/zh/api.html#echartsInstance
