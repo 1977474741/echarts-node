@@ -13,6 +13,10 @@
       "type": "git",
       "url": "https://github.com/1977474741/echarts-node.git"
   },
+  "files": [
+      "/package.json",
+      "/index.js"
+  ],
   "npm": "https://www.npmjs.com/package/echarts-node",
   "devDependencies": {},
   "license": "ISC"

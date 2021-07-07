@@ -3,9 +3,9 @@ var echarts = require('echarts');
 echarts.setCanvasCreator(createCanvas);
 
 module.exports = {
-    init:(width = 300,height = 300) => {
-        let w = width,
-            h = height;
+    init: function(width,height){
+        let w = width || 300,
+            h = height || 300;
         if(typeof width == 'object' && width != null){
             w = width.width || 300,
             h = width.height || 300;
