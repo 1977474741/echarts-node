@@ -7,8 +7,8 @@ module.exports = {
         let w = width,
             h = height;
         if(typeof width == 'object' && width != null){
-            w = width.width,
-            h = width.height;
+            w = width.width || 300,
+            h = width.height || 300;
         }
         var canvas = createCanvas(w, h);
         return echarts.init(canvas);
