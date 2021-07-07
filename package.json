@@ -15,7 +15,8 @@
   },
   "files": [
       "/package.json",
-      "/index.js"
+      "/index.js",
+      "/README.md"
   ],
   "npm": "https://www.npmjs.com/package/echarts-node",
   "devDependencies": {},
