@@ -1,4 +1,5 @@
 
+
 # echarts-node
 让echarts支持服务端渲染
 
@@ -11,20 +12,19 @@ npm install echarts-node
 var echartsNode = require('echarts-node');
 //配置项，canvas的尺寸等
 var config = {
-	width: 300,
-	height: 300
+    width: 300,
+    height: 300
 };
 var myChart = echartsNode.init(config);
 
 //echarts配置
-var option = {
-};
+var option = {};
 myChart.setOption(option);
 ```
 ## 函数说明
 | 函数名 | 参数 | 描述  | 必填 | 返回值 |
 | ----- |:------:|:-----:|:-----:|:-----:|
-| init | {Object config} | 创建canvas，初始化echarts | 是 | {Object echartsInstance} |
+| init | Object config | 创建canvas，初始化echarts | 是 | Object echartsInstance |
 
 ## 配置项（config）
 
