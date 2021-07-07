@@ -24,7 +24,7 @@ myChart.setOption(option);
 ## 函数说明
 | 函数名 | 参数 | 描述  | 必填 | 返回值 |
 | ----- |:------:|:-----:|:-----:|:-----:|
-| init | {Object config} | 创建canvas，初始化echarts | 是 | echartsInstance |
+| init | {Object config} | 创建canvas，初始化echarts | 是 | {Object echartsInstance} |
 
 ## 配置项（config）
 
