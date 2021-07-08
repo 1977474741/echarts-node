@@ -6,6 +6,7 @@
 ## 安装
 ```
 npm install echarts-node
+如果安装报错：https://github.com/Automattic/node-canvas/wiki
 ```
 ## 使用
 ```
